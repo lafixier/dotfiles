@@ -1,0 +1,17 @@
+[alias]
+	ast = !git add -A && git status
+	br = branch
+	co = checkout
+	cm = commit
+	del = reset --soft HEAD^
+	st = status
+[user]
+	name = Lafixier
+	email = 100778884+lafixier@users.noreply.github.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
