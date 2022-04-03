@@ -5,8 +5,10 @@
 	cm = commit
 	del = reset --soft HEAD^
 	st = status
+	ps = push
+	po = push origin
 [user]
-	name = Lafixier
+	name = lafixier
 	email = 100778884+lafixier@users.noreply.github.com
 [credential "https://github.com"]
 	helper = 
