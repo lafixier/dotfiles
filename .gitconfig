@@ -1,19 +1,29 @@
 [alias]
-	ast = !git add -A && git status
-	br = branch
-	co = checkout
-	cm = commit
-	del = reset --soft HEAD^
-	st = status
-	ps = push
-	po = push origin
+	a    = add
+	as   = !git add -A
+    au   = !git add -u
+	ast  = !git add -A && git status
+	aust = !git add -u && git status
+	br   = branch
+	co   = checkout
+	cob  = co -b
+	cm   = commit
+	del  = reset --soft HEAD^
+	st   = status
+	ps   = push
+	pso  = push origin
+	pl   = pull
+	plo  = pull origin
+	f    = flow
+	us   = reset HEAD
+	ic   = !git commit --allow-empty -m "initial commit"
 [user]
-	name = lafixier
-	email = 100778884+lafixier@users.noreply.github.com
+	name       = lafixier
+	email      = lfxr@proton.me
+	signingkey = CE7F875DDFE4BC82
 [credential "https://github.com"]
-	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
 	helper = !/usr/bin/gh auth git-credential
-
+[commit]
+	gpgsign = true
