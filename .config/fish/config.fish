@@ -56,10 +56,10 @@ fish_add_path $GOPATH/bin
 
 
 # Aliases
-alias g     = "git"
-alias gg    = "cz c"
-alias thm   = "sudo openvpn ~/Downloads/lafixier.ovpn"
-alias y     = "yarn"
-alias bfg   = "java -jar $HOME/.local/bin/bfg-1.14.0.jar"
-alias ch    = "code ."
-alias lg    = "lazygit"
+alias g="git"
+alias gg="cz c"
+alias thm="sudo openvpn ~/Downloads/lafixier.ovpn"
+alias y="yarn"
+alias bfg="java -jar $HOME/.local/bin/bfg-1.14.0.jar"
+alias ch="code ."
+alias lg="lazygit"
